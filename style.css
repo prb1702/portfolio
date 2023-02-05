@@ -95,9 +95,9 @@
     font-size: 0.8rem;
     /* z-index: -1; */
 }
-.btn{
+/* .btn{
     z-index: -1;
-}
+} */
 .button:hover{
     background-color: #34082b;
     color: white;
