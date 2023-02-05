@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Itim&family=Ubuntu&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Itim&family=Ubuntu&family=Work+Sans&family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(238, 217, 217);
+    /* width: 175px; */
+    font-family: 'Itim', cursive;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    z-index: 3;
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style:none;
+    font-size: 18px;
+    padding: 30px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* bakground-color: rgb(209, 162, 162); */
+    /* width: 100vw; */
+}
+
+.container{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    /* flex-wrap: wrap; */
+}
+
+.info{
+    /* background-color: rgb(94 70 70); */
+    width: 82vw;
+    height: 60vh;
+    /* margin: 37px auto; */
+    margin: 84px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+}
+
+.pic img{
+    height: 60vh; 
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 45vw;
+}
+
+.hello{
+    font-size: 1.6rem;     /*23px;*/
+}
+.name{
+    font-size: 2.2rem;     /*38px;*/
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+}
+.abt{
+    font-size: 1.6rem;         /*25px;*/
+}
+.more{
+    font-size: 1.1rem;        /* 15px;*/
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 10px 0px;
+}
+.button{
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px 0px;
+    background-color: rgb(238, 217, 217);
+    opacity: 0.5;
+    font-weight: bold;
+    color: #34082b;
+    font-size: 0.8rem;
+    /* z-index: -1; */
+}
+.btn{
+    z-index: -1;
+}
+.button:hover{
+    background-color: #34082b;
+    color: white;
+}
+
+.conForm{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 0px 34px;
+    padding-top: 30px;
+    margin: 0px 88px;
+    /* padding: 0px 0px;
+    padding-top: 35px; */
+}
+
+.conForm form div{
+    padding: 13px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    color: #a15555;
+    font-size: 11px;
+    margin: 0px 7px;
+    padding: 3px 0 0 0;
+}
+
+.conForm h1{
+    font-family: 'Ubuntu', sans-serif;
+    /* text-align: center; */
+    padding: 53px 0px 38px 0px
+}
+
+.conForm form div input{
+    width: 40vw;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 3px;
+    margin: 4px 0px 0px 0px;
+}
+
+.conForm form{
+    margin: 0px 9px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin: 3px;
+}
+#btn2{
+    width: 120px;
+}
+
+/* form{
+    padding: 0px 100px;
+} */
+
+.blogItem{
+    margin: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.blogItem p{
+    margin: 24px 0px 6px; 
+    font-family: 'Work Sans', sans-serif;
+}
+
+.blog h1{
+    text-align: center;
+    padding: 5px;
+    margin: 30px;
+    font-family: 'Itim', cursive;
+}
+
+#id2{
+    font-size: 11px;
+    z-index: -1;
+}
+
+#back{
+    background: #dbd1e5;
+}
+
+.intro{
+    margin: 88px;
+}
+
+.intro h2{
+    font-family: 'Itim', cursive;
+    margin: 17px;
+    margin-top: 29px;
+}
+
+.intro p{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 17px;
+}
+
+.skillContainer{
+    padding: 17px;
+}
+
+.skill{
+    width: 363px;
+    height: 13px;
+    background-color: yellow;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+
+.hundred{
+    width: 363px;
+    background-color: rgb(15, 15, 66);
+}
+
+.ninty{
+    width: 350px;
+    background-color: rgb(39, 39, 110);
+}
+
+.s5{
+    width: 315px;
+    background-color: rgb(88, 88, 167);
+}
+
+.fifty{
+    width: 250px;
+    background-color: rgb(152, 152, 199);
+}
+
+.t5{
+    width: 125px;
+    background-color: rgb(166, 166, 204);
+}
+
+.p1{
+    width: 100px;
+}
+
+#two{
+    margin-top: 50px;
+}
+
+.project h3{
+    padding: 25px 17px;
+    padding-bottom: 5px;
+}
+
+.projectDesc{
+    width: 430px;
+    padding: 12px 0px;
+    padding-top: 5px;
+}
+
+.project{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+#right{
+    padding-right: 90px;
+}
+
+#left{
+    padding-left: 90px;
+}
+
+.sidebarGo{
+    transform: translate(-169px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+}
+
+/* .ham{
+
+} */
+
+.cross{
+    margin-left: 119px;
+}
+
+.font{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1216px){
+
+.pic img{
+    display: none;
+}
+
+.devInfo{
+    width: 69vw;
+}
+
+.intro{
+    margin: 0px;
+}
+
+.conForm{
+    margin: 8px;
+    padding-top: 0px;
+}
+
+.project{
+    flex-direction: column;
+}
+
+#left{
+    padding-left: 0px;
+}
+
+.info{
+    height: 70vh;
+    width: 100vw;
+} 
+
+#con{
+    margin: auto;
+}
+/* *{
+    background-color: red;
+} */
+
+/* .sidebar{
+    transform: translate(-154px, 0px);
+    position: absolute;
+}
+
+.info{
+    height: 66vh;
+} */
+
+/* .cross{
+    margin-left: 95px;
+}
+
+.pic img{
+    height: 39vh;       29      23
+} */
+
+/* .hello{
+    font-size: 17px;    32      21
+}
+
+.name{
+    font-size: 22px;    39      27
+}
+
+.abt{
+    font-size: 16px;    26      18
+}
+
+.more{
+    font-size: 9px;     13      8
+}
+
+.button{
+    font-size: 8px;
+    padding: 5px;
+} 
+
+.sidebar nav li a{
+    font-size: 15px;
+} */
+   
+
+}
